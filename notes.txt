@@ -1,0 +1,20 @@
+
+| to pipe the output of one command to another command
+
+> to write the output of a command to a file
+
+>> to append the output of a command to a file
+
+< to get input from a text file AKA pipe a file to a command
+
+<< followed by a word to open and close the multi-line input
+
+<<< to supply a single string as an argument wrapped in ""
+
+wc to get the word count
+
+Examples:
+wc -w < hello.txt
+cat << EOF
+
+
